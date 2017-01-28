@@ -1,0 +1,203 @@
+[ 2015-09-19T14:09:19+08:00 ] 182.118.22.227 /index.php/Database/index/p/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+NOTIC: [8] Undefined index: q C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002377s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gzf_news` WHERE ( `NewsType` = 12 ) AND ( `NewsTitle` LIKE '%%' ) LIMIT 1   [ RunTime:0.000722s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent`,`PublicDateTime`,`SaveFileName` FROM `gzf_news` WHERE ( `NewsType` = 12 ) AND ( `NewsTitle` LIKE '%%' ) ORDER BY NewsId desc LIMIT 10,5   [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `gzf_brief` [ RunTime:0.001776s ]
+SQL: SELECT * FROM `gzf_brief` ORDER BY BriefId  [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `gzf_link` [ RunTime:0.001759s ]
+SQL: SELECT * FROM `gzf_link`  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `gzf_nav` [ RunTime:0.001738s ]
+SQL: SELECT * FROM `gzf_nav`  [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `gzf_textview` [ RunTime:0.001683s ]
+SQL: SELECT * FROM `gzf_textview` LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `gzf_relate` [ RunTime:0.001503s ]
+SQL: SELECT * FROM `gzf_relate`  [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001016s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2015-09-19T14:09:35+08:00 ] 101.226.168.201 /index.php/Article/index/id/106
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002729s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.011502s ]
+SQL: UPDATE `gzf_news` SET `Counter`=Counter+1 WHERE ( `NewsId` = 106 ) [ RunTime:0.000516s ]
+SQL: SELECT * FROM `gzf_news` WHERE ( `NewsId` = 106 )  [ RunTime:0.000399s ]
+SQL: SELECT `NewsTitle` FROM `gzf_news` WHERE ( `NewsId` = 106 ) LIMIT 1   [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 118 行.
+NOTIC: [8] Undefined variable: link C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 201 行.
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032524s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000866s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001030s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001216s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2015-09-19T14:09:40+08:00 ] 101.226.167.241 /index.php/Article/index/id/22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.001894s ]
+SQL: UPDATE `gzf_news` SET `Counter`=Counter+1 WHERE ( `NewsId` = 22 ) [ RunTime:0.000407s ]
+SQL: SELECT * FROM `gzf_news` WHERE ( `NewsId` = 22 )  [ RunTime:0.000578s ]
+SQL: SELECT `NewsTitle` FROM `gzf_news` WHERE ( `NewsId` = 22 ) LIMIT 1   [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 118 行.
+NOTIC: [8] Undefined variable: link C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 201 行.
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-09-19T14:12:34+08:00 ] 182.118.25.235 /index.php/Article/index/id/42
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002122s ]
+SQL: UPDATE `gzf_news` SET `Counter`=Counter+1 WHERE ( `NewsId` = 42 ) [ RunTime:0.000434s ]
+SQL: SELECT * FROM `gzf_news` WHERE ( `NewsId` = 42 )  [ RunTime:0.000405s ]
+SQL: SELECT `NewsTitle` FROM `gzf_news` WHERE ( `NewsId` = 42 ) LIMIT 1   [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 118 行.
+NOTIC: [8] Undefined variable: link C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 201 行.
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2015-09-19T14:14:40+08:00 ] 182.118.22.213 /index.php/News
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+NOTIC: [8] Undefined index: q C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.001953s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gzf_news` WHERE ( `NewsType` = 12 ) AND ( `NewsTitle` LIKE '%%' ) LIMIT 1   [ RunTime:0.000713s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent`,`PublicDateTime`,`SaveFileName` FROM `gzf_news` WHERE ( `NewsType` = 12 ) AND ( `NewsTitle` LIKE '%%' ) ORDER BY NewsId desc LIMIT 0,10   [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `gzf_brief` [ RunTime:0.001936s ]
+SQL: SELECT * FROM `gzf_brief` ORDER BY BriefId  [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `gzf_link` [ RunTime:0.001729s ]
+SQL: SELECT * FROM `gzf_link`  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `gzf_nav` [ RunTime:0.001826s ]
+SQL: SELECT * FROM `gzf_nav`  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `gzf_textview` [ RunTime:0.001654s ]
+SQL: SELECT * FROM `gzf_textview` LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `gzf_relate` [ RunTime:0.001545s ]
+SQL: SELECT * FROM `gzf_relate`  [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2015-09-19T14:57:01+08:00 ] 101.226.166.212 /index.php/Article/index/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002064s ]
+SQL: UPDATE `gzf_news` SET `Counter`=Counter+1 WHERE ( `NewsId` = 2 ) [ RunTime:0.000436s ]
+SQL: SELECT * FROM `gzf_news` WHERE ( `NewsId` = 2 )  [ RunTime:0.000518s ]
+SQL: SELECT `NewsTitle` FROM `gzf_news` WHERE ( `NewsId` = 2 ) LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 118 行.
+NOTIC: [8] Undefined variable: link C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 201 行.
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000986s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001074s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2015-09-19T18:48:13+08:00 ] 42.156.139.57 /index.php/Article/index/id/98
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002261s ]
+SQL: UPDATE `gzf_news` SET `Counter`=Counter+1 WHERE ( `NewsId` = 98 ) [ RunTime:0.000444s ]
+SQL: SELECT * FROM `gzf_news` WHERE ( `NewsId` = 98 )  [ RunTime:0.000453s ]
+SQL: SELECT `NewsTitle` FROM `gzf_news` WHERE ( `NewsId` = 98 ) LIMIT 1   [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 118 行.
+NOTIC: [8] Undefined variable: link C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 201 行.
+NOTIC: [8] Undefined variable: nav C:\wamp\www\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000949s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001086s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001625s ]
+

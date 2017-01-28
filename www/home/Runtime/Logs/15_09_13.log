@@ -1,0 +1,117 @@
+[ 2015-09-13T14:44:24+08:00 ] 182.138.127.57 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `gzf_teachers` [ RunTime:0.002910s ]
+SQL: SELECT * FROM `gzf_teachers` WHERE ( TeachersIndex=1 )  [ RunTime:0.000606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gzf_teachers` WHERE ( TeachersIndex=1 ) LIMIT 1   [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: ifdiv C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002212s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 12 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.000843s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 9 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.000679s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 3 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `gzf_brief` [ RunTime:0.001969s ]
+SQL: SELECT * FROM `gzf_brief` ORDER BY BriefId  [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `gzf_link` [ RunTime:0.001963s ]
+SQL: SELECT * FROM `gzf_link`  [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `gzf_nav` [ RunTime:0.001814s ]
+SQL: SELECT * FROM `gzf_nav`  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `gzf_textview` [ RunTime:0.001775s ]
+SQL: SELECT * FROM `gzf_textview` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `gzf_relate` [ RunTime:0.001700s ]
+SQL: SELECT * FROM `gzf_relate`  [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068196s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001285s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-09-13T16:08:59+08:00 ] 203.208.60.86 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+SQL: SHOW COLUMNS FROM `gzf_teachers` [ RunTime:0.002249s ]
+SQL: SELECT * FROM `gzf_teachers` WHERE ( TeachersIndex=1 )  [ RunTime:0.000782s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gzf_teachers` WHERE ( TeachersIndex=1 ) LIMIT 1   [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: ifdiv C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `gzf_news` [ RunTime:0.002037s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 12 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.000840s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 9 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.000703s ]
+SQL: SELECT `NewsId`,`NewsTitle`,`NewsContent` FROM `gzf_news` WHERE ( `NewsType` = 3 ) ORDER BY NewsId desc LIMIT 6   [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `gzf_brief` [ RunTime:0.001909s ]
+SQL: SELECT * FROM `gzf_brief` ORDER BY BriefId  [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `gzf_link` [ RunTime:0.001909s ]
+SQL: SELECT * FROM `gzf_link`  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `gzf_nav` [ RunTime:0.001852s ]
+SQL: SELECT * FROM `gzf_nav`  [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `gzf_textview` [ RunTime:0.002072s ]
+SQL: SELECT * FROM `gzf_textview` LIMIT 1   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `gzf_relate` [ RunTime:0.001695s ]
+SQL: SELECT * FROM `gzf_relate`  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+NOTIC: [8] Undefined index: Title C:\wamp\www\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 306 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070498s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002156s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001268s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007149s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2015-09-13T18:15:16+08:00 ] 42.156.139.57 /index.php/Teachers
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [2] Missing argument 1 for CommonAction::getteachers(), called in C:\wamp\www\home\Lib\Action\TeachersAction.class.php on line 4 and defined C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `gzf_teachers` [ RunTime:0.002278s ]
+SQL: SELECT * FROM `gzf_teachers`  [ RunTime:0.000623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gzf_teachers` LIMIT 1   [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: ifdiv C:\wamp\www\home\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `gzf_brief` [ RunTime:0.001938s ]
+SQL: SELECT * FROM `gzf_brief` ORDER BY BriefId  [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `gzf_link` [ RunTime:0.001960s ]
+SQL: SELECT * FROM `gzf_link`  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `gzf_nav` [ RunTime:0.002671s ]
+SQL: SELECT * FROM `gzf_nav`  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `gzf_textview` [ RunTime:0.001908s ]
+SQL: SELECT * FROM `gzf_textview` LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `gzf_relate` [ RunTime:0.001636s ]
+SQL: SELECT * FROM `gzf_relate`  [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001064s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001624s ]
+
